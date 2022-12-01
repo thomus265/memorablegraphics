@@ -1,0 +1,30 @@
+.loader_container {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    z-index: 1000;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.counter_container{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.counter_list{
+    list-style: none;
+    font-size: 40vh;
+    margin-top: 2900px;
+}
+
+.counter_list li h3{
+    margin-top: 10px;
+    font-weight: 500;
+    font-family: "Space Grotesk" sans-serif;
+}

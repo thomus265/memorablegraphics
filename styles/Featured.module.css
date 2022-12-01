@@ -1,0 +1,107 @@
+.featured1_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .img_container{
+    height: 60%;
+    width: 25%;
+    border-radius: 20px;
+    
+  }
+.img_container:nth-child(1){
+  position: absolute;
+  right: 50%;
+}
+
+.img_container:nth-child(2){
+  position: absolute;
+  right: 20%;
+}
+
+
+  .feat_img {
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .featured1{
+    width: 40%;
+    font-family: "Clash Display", sans-serif;
+    padding: 0px 50px;
+  }
+  
+  .featured1 h3{
+  font-size: 2.5rem;
+  font-weight: 400;
+  }
+  
+  .featured1 p {
+    font-weight: 300;
+  }
+  
+  .featured2_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .featured2{
+    width: 40%;
+    font-family: "Clash Display", sans-serif;
+    padding: 0px 50px;
+  }
+  
+  .featured2 h3{
+  font-size: 2.5rem;
+  font-weight: 400;
+  }
+  
+  .featured2 p {
+    font-weight: 300;
+  }
+  
+  
+  .featured3_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .featured3{
+    width: 40%;
+    font-family: "Clash Display", sans-serif;
+    padding: 0px 50px;
+  }
+  
+  .featured3 h3{
+  font-size: 2.5rem;
+  font-weight: 400;
+  }
+  
+  .featured3 p {
+    font-weight: 300;
+  }
+  
+
+  .hover_image{
+    height: 30vmin;
+    width: 20vmin;
+    object-fit: cover;
+    border-radius: 20px;
+    position: absolute;
+    left: 20%;
+    display: none;
+    transform: translate(-50%, -50%);
+    image-resolution: 300dpi;
+  }
+
+  .hover_image:hover{
+    display: block;
+  }

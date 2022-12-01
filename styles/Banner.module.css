@@ -1,0 +1,88 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+.text {
+  font-family: "Clash Display", sans-serif;
+  font-size: 9vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: 0.01em;
+  line-height: 0.8;
+  width: 80%;
+}
+.text:first-of-type {
+  text-align: left;
+}
+.text:nth-child(2) {
+  -webkit-text-stroke: 2px var(--light-color);
+  color: transparent;
+  text-align: center;
+}
+
+.text:last-of-type {
+  text-align: right;
+}
+
+.text_parent {
+  position: absolute;
+  z-index: 10;
+}
+
+.image_layer {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  filter: drop-shadow(50%);
+}
+
+.image_container {
+  border-radius: 30px;
+  width: 30%;
+  height: 70%;
+  image-resolution: 300dpi;
+}
+
+.scroll {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  right: 2%;
+  height: 150px;
+  width: 150px;
+  border: 2px solid var(--light-color);
+  border-radius: 100%;
+}
+
+.scroll_icon {
+  rotate: 90deg;
+}
+
+.img{
+  width: 50vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  image-resolution: 300dpi;
+}
+
+.img[data-status="inactive"]{
+  display: none;
+}
+
+.img[data-status="active"]{
+  display: block;
+}
